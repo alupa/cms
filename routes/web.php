@@ -12,9 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Frontend
 Route::get('/', 'PageController@home')->name('home');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
